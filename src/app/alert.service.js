@@ -18,7 +18,7 @@ class AlertService{
       }
       
       hideErrors = () => {
-        errorBox.classList.add("invisible");
+        this.errorBox.classList.add("invisible");
       }
 }
 

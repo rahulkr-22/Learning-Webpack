@@ -5,7 +5,7 @@ class ComponentService {
       this.addValuesButton = document.getElementById("addValues");
       this.resultDiv = document.getElementById("result");
     }
-  
+    
     getInputs() {
       return [this.numberOneInput.value, this.numberTwoInput.value];
     }
